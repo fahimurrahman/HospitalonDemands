@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Hospital On Demand</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_about">About Us</string>
+    <string name="action_ambulance">Ambulance Services</string>
+    <string name="title_activity_about">Developer</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_button_name">About Us</string>
+
+    <!--<string name="heart_button_name">হৃদরোগ</string>-->
+    <!--<string name="eye_button_name">চক্ষু</string>-->
+    <!--<string name="gastric_button_name">গ্যাস্ট্রিক</string>-->
+    <!--<string name="cancer_button_name">ক্যান্সার </string>-->
+
+
+    <string name="title_activity_stomach_wash">StomachWash</string>
+    <string name="title_activity_orthopedic">Orthopedic</string>
+    <string name="title_activity_prematurebaby">Prematurebaby</string>
+
+    <!--<string name="title_activity_heartmap">Map</string>-->
+    <!--<string name="title_activity_map">Map</string>-->
+    <!--<string name="title_activity_map_orthopedic">Orthopedic Hospital</string>-->
+
+    <string name="title_activity_heart_option">Heart</string>
+    <string name="title_activity_othopedic_option"> Orthopedic </string>
+    <string name="title_activity_prematurebaby_option">Pre-Mature Baby</string>
+    <string name="title_activity_stomachwash_option">Stomach Wash</string>
+    <string name="title_activity_neurosurgery_option">Neurology</string>
+    <string name="title_activity_cancer_option">Cancer</string>
+    <string name="title_activity_gastric_option">Gastric</string>
+    <string name="title_activity_eye_option">Eye</string>
+    <string name="title_activity_ambulance">Ambulance</string>
+
+    <string name="title_activity_cancer">ক্যান্সার</string>
+    <string name="title_activity_eye">চক্ষু</string>
+    <string name="title_activity_gastric">গ্যাস্ট্রিক</string>
+
+
+    <string name="contentdescrip">Image</string>
+
+    <string name="information">হাসপাতালের তথ্য সমূহ</string>
+    <string name="location">নিকটস্থ হাসপাতাল</string>
+
+    <string name="hdoctor">হৃদরোগ বিশেষজ্ঞ</string>
+    <string name="cdoctor">ক্যান্সার বিশেষজ্ঞ</string>
+    <string name="ordoctor">হাড় বিশেষজ্ঞ</string>
+    <string name="ndoctor">নিউরোন বিশেষজ্ঞ</string>
+    <string name="gdoctor">গ্যাস্ট্রিক বিশেষজ্ঞ</string>
+    <string name="edoctor">চক্ষু বিশেষজ্ঞ</string>
+    <string name="chdoctor">শিশু বিশেষজ্ঞ</string>
+    <string name="stdoctor">স্টোমাক ওয়াস বিশেষজ্ঞ</string>
+
+    <string name="map">এখানে ক্লিক করুন</string>
+
+    <string name="home">Nearby Hospital</string>
+    <string name="hometext1">Specialized Hospital</string>
+
+    <string name="text1">Heart</string>
+    <string name="text2">Orthopedic</string>
+    <string name="text3">Neurology</string>
+    <string name="text4">Pre-Mature Baby</string>
+    <string name="text5">Stomach Wash</string>
+    <string name="text6">Cancer</string>
+    <string name="text7">Eye</string>
+    <string name="text8">Gastric</string>
+    <string name="title_activity_heart_doctor">হৃদরোগ বিশেষজ্ঞ</string>
+    <string name="title_activity_cancer_doctor">ক্যান্সার বিশেষজ্ঞ</string>
+    <string name="title_activity_orthopedic_doctor">হাড় বিশেষজ্ঞ</string>
+    <string name="title_activity_neurosurgery_doctor">নিউরোন বিশেষজ্ঞ</string>
+    <string name="title_activity_eye_doctor">চক্ষু বিশেষজ্ঞ</string>
+    <string name="title_activity_gastric_doctor">গ্যাস্ট্রিক বিশেষজ্ঞ</string>
+    <string name="title_activity_prematurebaby_doctor">শিশু বিশেষজ্ঞ</string>
+    <string name="title_activity_stomach_wash_doctor">স্টোমাক ওয়াস বিশেষজ্ঞ</string>
+    <string name="large_text">
+        "Hospital on Demand.\n\n\n"
+
+        "এই অ্যাপের মাধ্যমে রোগীর জরুরী মুহূর্তের সেবার জন্য নিকটস্থ হাসপাতাল, এ্যাম্বুলেন্স সার্ভিস এবং প্রয়োজনে  "
+        "বিশেষায়িত  হাসপাতাল, বিশেষজ্ঞ ডাক্তার সম্বন্ধে জানতে পারবেন। \n\n"
+
+        "অ্যাপে ব্যবহৃত ম্যাপের মাধ্যমে ব্যাবহারকারী বর্তমান অবস্থান থেকে  নির্দিষ্ট যে কোন একটি হাসপাতালের অবস্থান, "
+        "দূরত্ব, সময় এবং হাসপাতালে যাওয়ার পথ জানতে পারবেন। \n\n"
+
+        "অ্যাপ ব্যাবহারকারীগণ রোগীর নির্দিষ্ট রোগের জন্য বিভিন্ন বিশেষায়িত হাসপাতালের সেবা পদ্ধতি, ঠিকানা এবং "
+        "হাসপাতালের সাথে  যোগাযগের জন্য ফোন নাম্বার জানতে পারবেন। এছাড়াও বিভিন্ন রোগের বিশেষজ্ঞ ডাক্তারের"
+        "নাম ও ফোন নাম্বার জানতে পারবেন। \n\n"
+
+        "অ্যাপের মাধ্যমে ব্যাবহারকারীগণ ২৪ ঘন্টা জরুরী এ্যাম্বুলেন্ সার্ভিস গ্রহণ করতে পারবেন। \n\n"
+
+        "অ্যাপ ব্যাবহারের জন্য ইন্টারনেট সংযোগ প্রয়োজন । হাসপাতালের লোকেশন জানতে হলে ব্যাবহারকারীকে তার  "
+        "ফোনের লোকেশন অন করতে হবে। \n"
+
+
+    </string>
+    <string name="title_activity_ambulances">"Ambulance "</string>
+    <string name="title_activity_us">About Us</string>
+
+
+</resources>

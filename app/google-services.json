@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "80698157305",
+    "firebase_url": "https://bd-hospital.firebaseio.com",
+    "project_id": "bd-hospital",
+    "storage_bucket": "bd-hospital.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80698157305:android:f1158745adf69824",
+        "android_client_info": {
+          "package_name": "com.example.hp.hospitalondemand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80698157305-didu016l1l7k11c5jub5jb45havggi0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.hospitalondemand",
+            "certificate_hash": "8e56a4d85be5047077506bce21b024cade70f81b"
+          }
+        },
+        {
+          "client_id": "80698157305-15a4ju42om22c65kh24bhg577neghq77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkGzekj0ubyhNbsLS2B2xtaHRlBMi5ShQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80698157305-15a4ju42om22c65kh24bhg577neghq77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

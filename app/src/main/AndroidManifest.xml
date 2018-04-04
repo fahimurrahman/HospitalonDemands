@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.hospitalondemand">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBIHJPu0LvmqJ_XmpZScFo6C92zTB9vKWo" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Heart"
+            android:label="@string/information"
+            android:parentActivityName=".HeartOption" />
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StomachWash"
+            android:label="@string/information"
+            android:parentActivityName=".StomachwashOption" />
+        <activity
+            android:name=".Orthopedic"
+            android:label="@string/information"
+            android:parentActivityName=".OthopedicOption" />
+        <activity
+            android:name=".Prematurebaby"
+            android:label="@string/information"
+            android:parentActivityName=".PrematurebabyOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HeartOption"
+            android:label="@string/title_activity_heart_option"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".HeartMap" />
+        <activity android:name=".DataInsert" />
+        <activity
+            android:name=".OthopedicOption"
+            android:label="@string/title_activity_othopedic_option"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".OrthopedicMap" />
+        <activity
+            android:name=".PrematurebabyOption"
+            android:label="@string/title_activity_prematurebaby_option"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".PrematurebabyMap" />
+        <activity
+            android:name=".StomachwashOption"
+            android:label="@string/title_activity_stomachwash_option"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".StomachwashMap" />
+        <activity
+            android:name=".Neurosurgery"
+            android:label="@string/information"
+            android:parentActivityName=".NeurosurgeryOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NeurosurgeryOption"
+            android:label="@string/title_activity_neurosurgery_option"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".NeurosurgeryMap" />
+        <activity
+            android:name=".Cancer"
+            android:label="@string/information"
+            android:parentActivityName=".CancerOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CancerOption"
+            android:label="@string/title_activity_cancer_option"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".CancerMap" />
+        <activity
+            android:name=".Eye"
+            android:label="@string/information"
+            android:parentActivityName=".EyeOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EyeOption"
+            android:label="@string/title_activity_eye_option"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".EyeMap" />
+        <activity
+            android:name=".Gastric"
+            android:label="@string/information"
+            android:parentActivityName=".GastricOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".GastricOption"
+            android:label="@string/title_activity_gastric_option"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".GastricMap" />
+        <activity android:name=".NearbyHospital" />
+        <activity
+            android:name=".HeartDoctor"
+            android:label="@string/title_activity_heart_doctor"
+            android:parentActivityName=".HeartOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CancerDoctor"
+            android:label="@string/title_activity_cancer_doctor"
+            android:parentActivityName=".CancerOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".OrthopedicDoctor"
+            android:label="@string/title_activity_orthopedic_doctor"
+            android:parentActivityName=".OthopedicOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NeurosurgeryDoctor"
+            android:label="@string/title_activity_neurosurgery_doctor"
+            android:parentActivityName=".NeurosurgeryOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EyeDoctor"
+            android:label="@string/title_activity_eye_doctor"
+            android:parentActivityName=".EyeOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".GastricDoctor"
+            android:label="@string/title_activity_gastric_doctor"
+            android:parentActivityName=".GastricOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrematurebabyDoctor"
+            android:label="@string/title_activity_prematurebaby_doctor"
+            android:parentActivityName=".PrematurebabyOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".StomachWashDoctor"
+            android:label="@string/title_activity_stomach_wash_doctor"
+            android:parentActivityName=".StomachwashOption"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Ambulances"
+            android:label="@string/title_activity_ambulances"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Us"
+            android:label="@string/title_activity_us"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+        </activity>
+    </application>
+
+</manifest>
